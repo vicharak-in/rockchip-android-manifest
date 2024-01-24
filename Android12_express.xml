@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <!-- remote repo and gerrit review -->
-  <include name="Android12.xml" />
-
-  <include name="include/partner_gms_express.xml" />
-  <include name="include/partner_modules_express.xml" />
-</manifest>
