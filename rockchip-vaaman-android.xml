@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="vicharak"
-		fetch="https://github.com/vicharak-in"
-		review="https://github.com/vicharak-in" />
-	<project path="u-boot" remote="vicharak" dest-branch="master" revision="b023e13de3d04ced4881d41c65cd9755f692a040" name="rockchip-linux-u-boot" depth="1" />
-	<project path="device/rockchip/rk3399" remote="vicharak" dest-branch="android12" revision="android12"
-		name="android_device_rockchip_rk3399">
-	</project>
-	<project path="device/rockchip/common" remote="vicharak" dest-branch="android12" revision="dcd9cc37494d63f845bd6035f695151f0cfb1bc3"
-		name="android_device_rockchip_common" depth="1" >
-	</project>	
-	<project path="kernel-4.19" remote="vicharak" dest-branch="vaaman-4.19" revision="6c28e85c8c0fe7eebdcf16111fde505387571e82" name="rockchip-linux-kernel-priv" depth="1" />
-	<project path="kernel-5.10" remote="vicharak" dest-branch="vicharak-5.10" revision="aee968ef0178b78be2af21d2f4e74846b76a8c92" name="rockchip-linux-kernel-priv" depth="1" />
+	<project path="u-boot" remote="vicharak" dest-branch="master" revision="b023e13de3d04ced4881d41c65cd9755f692a040" name="rockchip-linux-u-boot" />
+	<project path="device/rockchip/rk3399" remote="vicharak" dest-branch="android12" revision="f906fe680bb640c88d10441e71046e1f6fb338c4" name="android_device_rockchip_rk3399" />
+	<project path="device/rockchip/common" remote="vicharak" dest-branch="android12" revision="dcd9cc37494d63f845bd6035f695151f0cfb1bc3" name="android_device_rockchip_common" />
+	<project path="kernel-4.19" remote="vicharak" dest-branch="vaaman-4.19" revision="vaaman-4.19" name="rockchip-linux-kernel-priv" />
+	<project path="kernel-5.10" remote="vicharak" dest-branch="vicharak-5.10" revision="vicharak-5.10" name="rockchip-linux-kernel-priv" />
 
 </manifest>
 
