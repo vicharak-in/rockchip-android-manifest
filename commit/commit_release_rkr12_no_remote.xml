@@ -749,7 +749,6 @@
     <linkfile dest="hardware/qcom/sm8150p/Android.bp" src="os_pickup.bp"/>
   </project>
   <project groups="qcom_wlan,pdk-qcom" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="ef79d4cb49b7eb7f21f50a744018b088e6a0f7cb" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
-  <project name="platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="79bee162e4acfde0ddab5ffa790588efe27ad52b" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
   <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" revision="f31548470068e8902913644088ec8a682e5a0c04" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
   <project name="platform/hardware/rockchip/wifi" path="hardware/rockchip/wifi" remote="rk" revision="f6211a66e6e54cf4deeaae09abd8ea1eab415f90" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
   <project groups="pdk" name="platform/hardware/samsung/nfc" path="hardware/samsung/nfc" revision="d82d36a4d577305dc785a89da771f13409bae3ee" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
@@ -1052,7 +1051,6 @@
   <project groups="pdk,tradefed" name="platform/tools/tradefederation/prebuilts" path="tools/tradefederation/prebuilts" revision="477f1e58308678cfca2559bf9af19be1c1e6da24" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
   <project groups="tools,pdk" name="platform/tools/treble" path="tools/treble" revision="1b18efe53304a3c3d7112e91250b885ed5437a9e" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
   <project groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" name="platform/tools/trebuchet" path="tools/trebuchet" revision="6d2c711220d72620090941cf14ac33037d402523" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
-  <project name="rk/device/rockchip/rk3588" path="device/rockchip/rk3588" remote="rk" revision="0131158e02495f4f3e8f14622f7448e97b3f992f" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
   <project name="rk/hardware/libgralloc/bifrost" path="hardware/rockchip/libgralloc/bifrost" remote="rk" revision="25948c0f393cdab4686acd0b211798944876c5f7" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
   <project name="rk/hardware/libgralloc/midgard" path="hardware/rockchip/libgralloc/midgard" remote="rk" revision="40ba66320858ef7115c658d4b234aeb8dd7eca0a" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
   <project name="rk/hardware/libgralloc/utgard_new" path="hardware/rockchip/libgralloc/utgard" remote="rk" revision="98f760db816d6df1568fcbf31f693d5f68a208fe" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
