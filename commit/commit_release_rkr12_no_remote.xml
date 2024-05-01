@@ -760,6 +760,16 @@
   <project groups="pdk" name="platform/libcore" path="libcore" revision="e42572a24e64f8511dbbf2e83f79fb08303de1a0" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" revision="4127df85264539c1fcc6dcbf59410e9edaa2e0c6" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
   <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="9d6321aabba4dacaa570b83f096d46cba62dc579" upstream="refs/tags/Android12_Radxa_rk12_12.1">
+    <linkfile dest="kernel-4.19/kernel/configs/android-11.config" src="configs/android-11.config"/>
+    <linkfile dest="kernel-5.10/kernel/configs/android-11.config" src="configs/android-11.config"/>
+    <linkfile dest="kernel-4.19/kernel/configs/android-11-go.config" src="configs/android-11-go.config"/>
+    <linkfile dest="kernel-5.10/kernel/configs/android-11-go.config" src="configs/android-11-go.config"/>
+    <linkfile dest="kernel-4.19/kernel/configs/disable_incfs.config" src="configs/disable_incfs.config"/>
+    <linkfile dest="kernel-4.19/kernel/configs/non_debuggable.config" src="configs/non_debuggable.config"/>
+    <linkfile dest="kernel-5.10/kernel/configs/non_debuggable.config" src="configs/non_debuggable.config"/>
+    <linkfile dest="kernel-5.10/kernel/configs/pcie_wifi.config" src="configs/pcie_wifi.config"/>
+    <linkfile dest="kernel-5.10/kernel/configs/pcie_wifi_infineon.config" src="configs/pcie_wifi_infineon.config"/>
+    <linkfile dest="kernel-5.10/kernel/configs/rk3588_reverse.config" src="configs/rk3588_reverse.config"/>
   </project>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="7c6a070c68413bab5343043af3df220226759568" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
   <project groups="pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="78c3df570e54c70a5b731dca43d096afe958c709" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
