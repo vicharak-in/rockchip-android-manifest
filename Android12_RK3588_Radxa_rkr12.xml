@@ -35,7 +35,6 @@
   <project name="external/camera_engine_rkaiq" remote="rk" revision="811e0a5bf55bfa631581a177b3b677c6f900053c" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
   <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="74a07e35c7fbc3fa8fadd16c88e20c2a5a29c5ae" upstream="refs/tags/Android12_Radxa_rk12_12.1">
   </project>
-  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="f8c3b548803cd3fc0170ff8b624b67b021fd0101" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
   <project groups="pdk" name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="5c662088457f3a3372a5af569958d874266ce124" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
   <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="da05b0693b1f3f7ec109a1adf272324d12d854ed" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
   <project groups="pdk" name="platform/frameworks/base" path="frameworks/base" revision="6944d61555547bafb69307dc282d0894dce4366c" upstream="refs/tags/Android12_Radxa_rk12_12.1" />
