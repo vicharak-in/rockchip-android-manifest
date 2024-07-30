@@ -36,7 +36,6 @@
   <project name="platform/mkcombinedroot" path="mkcombinedroot" remote="rk" revision="74a07e35c7fbc3fa8fadd16c88e20c2a5a29c5ae" upstream="refs/tags/Android12_Radxa_rk12_12.1">
   </project>
   <project groups="pdk" name="platform/bootable/recovery/recovery" path="bootable/recovery" revision="5c662088457f3a3372a5af569958d874266ce124" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
-  <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="da05b0693b1f3f7ec109a1adf272324d12d854ed" upstream="refs/tags/Android12_Radxa_rk12_12.1"/>
   <project groups="pdk" name="platform/frameworks/base" path="frameworks/base" revision="6944d61555547bafb69307dc282d0894dce4366c" upstream="refs/tags/Android12_Radxa_rk12_12.1" />
   <project name="platform/external/exfatprogs" path="external/exfatprogs" remote="rk" revision="9f07a09231613b5f2a2278526345f987be52dcfd" upstream="refs/tags/Android12_Radxa_rk12_12.1" />
   <!-- Radxa customization end -->

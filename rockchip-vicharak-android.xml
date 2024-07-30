@@ -19,5 +19,8 @@
 	<!-- New Firware Support For GPU -->
 	<project path="vendor/rockchip/common" remote="vicharak" dest-branch="main" revision="main" name="android_rockchip_gpu" />
 
+	<!-- Android RTL8852BS Module Support For Axon ( Wifi ) -->
+	<project path="frameworks/opt/net/wifi" remote="vicharak" dest-branch="main" revision="c54af2629d41bfa7e06c5b5bfa11b73c2528742d" name="android_rockchip_wifi" />
+
 </manifest>
 
