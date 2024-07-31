@@ -3,7 +3,8 @@
 	<project path="u-boot" remote="vicharak" dest-branch="master" revision="b023e13de3d04ced4881d41c65cd9755f692a040" name="rockchip-linux-u-boot" />
 	<!-- Vaaman Specific Board Configuration -->
 	<project path="device/rockchip/rk3399" remote="vicharak" dest-branch="android12" revision="android12" name="android_device_rockchip_rk3399" />
-	<project path="device/rockchip/rk3588" remote="vicharak" dest-branch="android12" revision="64c621fd0cec83129a4bc133d3d824f41373157b" name="android_device_rockchip_rk3588" />
+	<!-- Axon Specific Board Configuration -->
+	<project path="device/rockchip/rk3588" remote="vicharak" dest-branch="android12" revision="android12" name="android_device_rockchip_rk3588" />
 	<project path="device/rockchip/common" remote="vicharak" dest-branch="android12" revision="dcd9cc37494d63f845bd6035f695151f0cfb1bc3" name="android_device_rockchip_common">
 	    <copyfile dest=".classpath" src=".classpath"/>
 	    <copyfile dest="mkimage.sh" src="mkimage.sh"/>
