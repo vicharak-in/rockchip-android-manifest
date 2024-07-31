@@ -13,7 +13,9 @@
 	    <copyfile dest="kernel-4.19/.find-ignore" src="build/rockchip/blank_file"/>
 	    <copyfile dest="kernel-5.10/.find-ignore" src="build/rockchip/blank_file"/>
 	</project>
-	<project path="hardware/realtek" remote="vicharak" dest-branch="android12" revision="30bbb1a81f27291d3b49e8eeeea9aaf56744b9d9" name="android_hardware_realtek"/>
+
+	<!-- Android RealTek RTL8852BS Module Support For Vaaman and Axon ( Bluetooth ) -->
+	<project path="hardware/realtek" remote="vicharak" dest-branch="android12" revision="android12" name="android_hardware_realtek"/>
 	<project path="kernel-4.19" remote="vicharak" dest-branch="vaaman-4.19" revision="7c090976222c7f58d71a3f2d9cf45b3da3d57d7f" name="rockchip-linux-kernel-priv" />
 	<project path="kernel-5.10" remote="vicharak" dest-branch="vicharak-5.10" revision="5f15c0dc6ba0d23e95ef8f0aee7b063d235d0367" name="rockchip-linux-kernel-priv" />
 
