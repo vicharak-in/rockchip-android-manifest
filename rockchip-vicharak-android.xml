@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="u-boot" remote="vicharak" dest-branch="master" revision="b023e13de3d04ced4881d41c65cd9755f692a040" name="rockchip-linux-u-boot" />
+	<project path="u-boot" remote="vicharak" dest-branch="master" revision="9b382e52c44832f6e4a5e6ccd72741117e7ea480" name="rockchip-linux-u-boot" />
 	<!-- Vaaman Specific Board Configuration -->
 	<project path="device/rockchip/rk3399" remote="vicharak" dest-branch="android12" revision="android12" name="android_device_rockchip_rk3399" />
 	<!-- Axon Specific Board Configuration -->
